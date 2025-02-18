@@ -16,6 +16,6 @@ public class UIImageMovement : MonoBehaviour
     void Update()
     {
         distance -= Time.deltaTime * speed;         //sky move left over time.
-        m_RectTransform.anchoredPosition = new Vector2(distance, 0);        //set horizontal anchor position
+        m_RectTransform.anchoredPosition = new Vector2(Mathf.Clamp(distance, -2300, 0), 0);        //set horizontal anchor position
     }
 }
