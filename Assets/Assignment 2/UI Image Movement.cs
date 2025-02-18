@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class UIImageMovement : MonoBehaviour
 {
-    RectTransform m_RectTransform;      //UI Image game object
+    public RectTransform m_RectTransform;      //UI Image game object
     public float speed;                 //Sky speed, also time speed
     float distance;                     //how far sky has moved
     public int imageWidth;              //pixels of image width
