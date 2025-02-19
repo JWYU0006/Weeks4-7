@@ -738,7 +738,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 643783212}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 643783214}
+        m_TargetAssemblyTypeName: SpawnMeteorScript, Assembly-CSharp
+        m_MethodName: SpawnMeteor
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &643783212
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -789,6 +801,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 35366857bb3f2c6458a2eda7ffd73abb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  meteorPrefab: {fileID: 2734097040171992992, guid: 2ad12644356f9ea40b20e9d6da4d65ce, type: 3}
+  parentUI: {fileID: 1854502029}
 --- !u!1 &776366604
 GameObject:
   m_ObjectHideFlags: 0
@@ -1485,7 +1499,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1772289647}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1541,7 +1555,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1772289650}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1772289652}
+        m_TargetAssemblyTypeName: SpawnBirdScript, Assembly-CSharp
+        m_MethodName: SpawnBird
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1772289650
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1592,6 +1618,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc0ae2d30c1f7784c9f5b7c6e0a7e103, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  birdPrefab: {fileID: 5670060048393225554, guid: 6e23a69bd7dc92840b1e6d0a8af604bc, type: 3}
+  parentUI: {fileID: 1854502029}
 --- !u!1 &1854502025
 GameObject:
   m_ObjectHideFlags: 0

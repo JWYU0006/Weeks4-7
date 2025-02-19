@@ -79,7 +79,7 @@ public class ImageTranceparency : MonoBehaviour
         }
     }
 
-    //enable image component which has image name matches the argument, unabled others
+    //decrease the target/current stage's image transparency, increase the next one's
     void SwitchImages(string imageName, float periodFloat)
     {
         for (int i = 0; i < images.Count; i++)
