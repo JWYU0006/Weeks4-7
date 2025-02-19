@@ -6,7 +6,7 @@ public class ImageTranceparency : MonoBehaviour
 {
     public UIImageMovement uiImageMovement;         //script class: UIImageMovement
     int periods = 6;                                 //how many periods in a day
-    int currentPeriod;                              //which period now
+    public int currentPeriod;                              //which period now
     int width;                                      //store width in UI Image Movement script
     float currentAnchorPosition;                    //store current horizontal anchor position
     static List<Image> images = new List<Image> { null, null, null, null, null, null };  //declare an static images list, it's common and can be access from all objects

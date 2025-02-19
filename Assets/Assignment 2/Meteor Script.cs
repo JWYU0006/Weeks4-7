@@ -14,10 +14,9 @@ public class MeteorScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        position += Time.deltaTime * speed;     //move over deltaTime
         Vector2 vector2 = rectTransform.anchoredPosition;
-        vector2.x -= position;          //move down left
-        vector2.y -= position / 3;
+        vector2.x -= Time.deltaTime * speed;          //move down left
+        vector2.y -= Time.deltaTime * speed / 3;
         rectTransform.anchoredPosition = vector2;       //update position
         if (vector2.y < -300)
         {
