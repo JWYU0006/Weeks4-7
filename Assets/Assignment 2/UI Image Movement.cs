@@ -4,7 +4,7 @@ public class UIImageMovement : MonoBehaviour
 {
     public RectTransform m_RectTransform;      //UI Image game object
     public float speed;                 //Sky speed, also time speed
-    float distance;                     //how far sky has moved
+    public float distance;                     //how far sky has moved
     public int imageWidth;              //pixels of image width
     // Start is called before the first frame update
     void Start()
